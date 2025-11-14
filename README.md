@@ -1,12 +1,12 @@
-# Project Name
-![insert alt text](images/example.jpg)
+# Galaxy Types Fact Page
+![the galaxy types text](images/logo.png)
 
-This is a project about [insert topic].
+This is an assignment project on building a character intro page, which is modified to an infographic webpage about galaxies.
 
 ## Installation 💻
 No installation required, simply download the zip file and extract.
 ## Usage
-Open index.html in the browser of your choice and watch our debate.
+Open index.html in the browser of your choice and learn.
 
 ## Contributing 
 1. Fork it!
@@ -21,4 +21,3 @@ TODO: Write history
 Jake
 ## License
 MIT License
-ß
