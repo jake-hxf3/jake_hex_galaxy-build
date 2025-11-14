@@ -41,8 +41,10 @@ header{
     list-style-type: none;
 } 
 
-#galaxy-types li{
+#galaxy-types a{
+    display: block;
     position: relative;
+    width: 240px;
 }
 
 #galaxy-types li img{
@@ -105,21 +107,32 @@ footer{
 
 .lightbox section{
     width: 45vw;
-    margin-top: 20vh;
-    line-height: 30px;
+    margin-top: 10vh;
 }
 
 .lb-heading{
     font-size: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    background: linear-gradient(45deg, blueviolet,deepskyblue);
+    filter: brightness(200%);
+    background-clip: text;
+    background-blend-mode: darken;
+    color: rgba(255, 255, 255, 0.19);
+    display: inline-block;
 }
 
 .lb-text{
     margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.lightbox hr{
+    margin-bottom: 30px;
 }
 
 .lightbox section ul{
     margin-left: 20px;
+    line-height: 30px;
 }
 
 .lb-img{
@@ -150,4 +163,35 @@ footer{
 
 .lb-close:hover{
     color: red;
+}
+
+/*in-line emphasis*/
+.galaxy-name{
+    font-weight: bold;
+}
+
+/*animation effects*/
+.shift:hover::after{
+    content: "";
+    border-radius: 5px;
+    height: 240px;
+    opacity: 0%;
+    mix-blend-mode: color-dodge;
+    position: absolute;
+    inset: 0 0;
+    animation: glow-up 1.5s linear alternate;
+}
+
+@keyframes glow-up{
+    0%{opacity: 0%}
+    50%{opacity: 40%}
+    100%{opacity: 0%;}
+}
+
+.blue:hover::after{
+    background-image: linear-gradient(35deg, blueviolet,deepskyblue) !important;    
+}
+
+.red:hover::after{
+    background-image: linear-gradient(45deg, rgb(226, 43, 141),blueviolet);
 }
