@@ -195,3 +195,7 @@ footer{
 .red:hover::after{
     background-image: linear-gradient(45deg, rgb(226, 43, 141),blueviolet);
 }
+
+#milky:hover::after{
+    background-color: rgba(55,55,55,0.85)
+}
