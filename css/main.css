@@ -148,8 +148,6 @@ footer{
     object-fit: cover;
 }
 
-
-
 .lb-close{
     position: absolute;
     color: white;
@@ -197,5 +195,5 @@ footer{
 }
 
 #milky:hover::after{
-    background-color: rgba(255,255,255,0.35);
+    background-color: rgba(255,255,255,0.36);
 }
