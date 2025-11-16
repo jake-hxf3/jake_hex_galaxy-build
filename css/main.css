@@ -105,7 +105,7 @@ footer{
     column-gap: 80px;
 }
 
-.lightbox section{
+.lb-main{
     width: 45vw;
     margin-top: 10vh;
 }
@@ -126,11 +126,11 @@ footer{
     line-height: 30px;
 }
 
-.lightbox hr{
+.lb-main hr{
     margin-bottom: 30px;
 }
 
-.lightbox section ul{
+.lb-main ul{
     margin-left: 20px;
     line-height: 30px;
 }
