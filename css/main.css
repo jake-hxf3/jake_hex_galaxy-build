@@ -89,9 +89,9 @@ footer{
 .lightbox{
     display: none;
     color: white;
-    width: 100vw;
+    width: 80vw;
     height: 100vh;
-    padding: 50px 100px 0px;
+    padding: 10px 11vw 0px 9vw;
     position: absolute;
     inset: 0 0;
     z-index: 2;
@@ -102,12 +102,8 @@ footer{
 .lightbox:target{
     display: grid;
     grid-template-columns: 4fr 8fr;
+    place-items: center;
     column-gap: 80px;
-}
-
-.lightbox section{
-    width: 45vw;
-    margin-top: 10vh;
 }
 
 .lb-heading{
@@ -130,7 +126,7 @@ footer{
     margin-bottom: 30px;
 }
 
-.lightbox section ul{
+.lb-main ul{
     margin-left: 20px;
     line-height: 30px;
 }
@@ -147,8 +143,6 @@ footer{
     border-radius: 15px;
     object-fit: cover;
 }
-
-
 
 .lb-close{
     position: absolute;
@@ -167,7 +161,19 @@ footer{
 
 /*in-line emphasis*/
 .galaxy-name{
+    color: rgb(185, 224, 255);
     font-weight: bold;
+}
+
+.massive{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.blur-light{
+    color: #fff;
+    text-shadow: 0 0 7px #f8f, 0 0 10px #f0f;
 }
 
 /*animation effects*/
@@ -197,5 +203,5 @@ footer{
 }
 
 #milky:hover::after{
-    background-color: rgba(255,255,255,0.35)
+    background-color: rgba(255,255,255,0.35);
 }
